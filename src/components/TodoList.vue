@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- :key="id" 不能重複的值，所以用uuid來生成id值-->
     <div v-for="todo in allTodos" :key="todo.id">
       <TodoItem :todo="todo" />
     </div>
