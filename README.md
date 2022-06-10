@@ -27,12 +27,14 @@ mutations:存放函式，方便其他檔案方便存入<br>
 
 ## Vue 學習過程：
 ```
-v-bind:id="dynamicId"
+<div v-bind:id="dynamicId">
 ```
 notes:透過v-bind可以動態改變HTML的屬性，如：classList
 notes: :key裡面要放的是唯一不會重複的值(id)
 ```
-v-for="item in items"
+<div v-for="item in items">
+  {{ item.text }}
+</div>
 ```
 notes:迭代功能
 ```
