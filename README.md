@@ -36,7 +36,7 @@ v-for="item in items"
 ```
 notes:迭代功能
 ```
-@my-event="handleThis(123, $event)" 
+<MyComponent @my-event="handleThis(123, $event)" />
 ```
 notes:類似DOM的EventListener
 
