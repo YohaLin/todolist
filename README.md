@@ -4,10 +4,6 @@
 ## 作品連結
 https://yohalin.github.io/todolist/
 
-## Project setup
-```
-npm install
-```
 ## 功能介紹
 *參考資料習得：
 1.新增todo<br>
