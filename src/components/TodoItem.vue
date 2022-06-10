@@ -26,7 +26,7 @@ export default {
     };
   },
   methods: {
-    // 將 `this.increment()` 映射為 `this.$store.dispatch('deleteTodo', 'updateTodo')`
+    // 映射為 `this.$store.dispatch('deleteTodo', 'updateTodo')`
     ...mapActions(['deleteTodo', 'updateTodo']),
     todoTextChange(e){
       let value = e.target.value.trim() //新增
