@@ -4,10 +4,6 @@
 ## 作品連結
 https://yohalin.github.io/todolist/
 
-## Project setup
-```
-npm install
-```
 ## 功能介紹
 *參考資料習得：<br>
 1.新增todo<br>
@@ -15,11 +11,9 @@ npm install
 3.編輯todo<br>
 
 ## 檔案結構
-**assets:**
-放入靜態檔案
-**components:**
-畫面要呈現的元件會放在這邊，如：HTML, CSS, 簡單Javascript
-**store:**
+**assets:**放入靜態檔案<br>
+**components:**畫面要呈現的元件會放在這邊，如：HTML, CSS, 簡單Javascript<br>
+**store:**<br>
 state:存放狀態值<br>
 getters:由state衍生出的狀態<br>
 actions:可以用來呼叫mutations的入口<br>
