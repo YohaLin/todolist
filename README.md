@@ -11,9 +11,11 @@ https://yohalin.github.io/todolist/
 3.編輯todo<br>
 
 ## 檔案結構
-**assets:**放入靜態檔案<br>
-**components:**畫面要呈現的元件會放在這邊，如：HTML, CSS, 簡單Javascript<br>
-**store:**<br>
+### 1.assets:
+放入靜態檔案<br>
+### 2.components:
+畫面要呈現的元件會放在這邊，如：HTML, CSS, 簡單Javascript<br>
+### 3.store:
 state:存放狀態值<br>
 getters:由state衍生出的狀態<br>
 actions:可以用來呼叫mutations的入口<br>
