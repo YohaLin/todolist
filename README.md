@@ -26,15 +26,18 @@ actions:可以用來呼叫mutations的入口<br>
 mutations:存放函式，方便其他檔案方便存入<br>
 
 ## Vue 學習過程：
-**語法**
-### v-bind:id="dynamicId"
+```
+v-bind:id="dynamicId"
+```
 notes:透過v-bind可以動態改變HTML的屬性，如：classList
 notes: :key裡面要放的是唯一不會重複的值(id)
-
-### v-for="item in items"
+```
+v-for="item in items"
+```
 notes:迭代功能
-
-###  @my-event="handleThis(123, $event)" 
+```
+@my-event="handleThis(123, $event)" 
+```
 notes:類似DOM的EventListener
 
 ## 參考資料
