@@ -1,8 +1,8 @@
 # todolist
 111.06.06 第一次接觸前端框架 Vue
 
-## 作品連結
-https://yohalin.github.io/todolist/
+## 作品圖片
+![portfolio](picture or gif url)
 
 ## 功能介紹
 *參考資料習得：<br>
